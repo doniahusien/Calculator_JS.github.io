@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.calc {
+    width: 70%;
+    max-width: 400px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.calc .output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+
+input[type="text"] {
+    width: 94%;
+    padding: 10px;
+    text-align: right;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+
+}
+
+#result {
+    font-size: 40px;
+    color: #fbfbfb;
+}
+
+#history {
+    font-size: 25px;
+    color: #6d6f70be;
+}
+
+.calc .keys {
+    width: 100%;
+}
+
+.calc .keys table {
+    text-align: center;
+
+    font-size: 30px;
+    border-spacing: 20px;
+    width: 100%;
+}
+
+.calc .keys table td {
+    width: 50px;
+    color: #fbfbfb;
+    border: 2px solid rgb(25, 92, 69);
+    background-color: rgba(90, 104, 142, 0.353);
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.calc .keys table td.operator {
+    color: #cd87e9;
+}
+
+.calc .keys table td.equal {
+
+    background-color: #a442cb;
+}
+
+@media (max-width: 600px) {
+    .calc {
+        font-size: 25px;
+        width: 70%;
+        height: auto;
+    }
+
+    .calc .keys table td {
+        width: 30px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .calc .keys table td {
+        width: 20px;
+        height: 30px;
+    }
+}
