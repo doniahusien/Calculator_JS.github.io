@@ -2,6 +2,10 @@
 
 This is a simple calculator implemented using JavaScript, HTML, and CSS. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
+## Preview 
+https://doniahusien.github.io/Calculator_JS.github.io/
+
+
 ## Features
 
 - Responsive and user-friendly interface.
