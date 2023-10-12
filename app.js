@@ -3,7 +3,7 @@ let input = document.querySelector("#result");
 let histor = document.querySelector("#history")
 let flag = false;
 function clear() {
-    input.value = 0;    
+    input.value = "";    
     history("")
     flag=false
 }
