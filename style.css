@@ -74,10 +74,10 @@ input[type="text"] {
 
 .calc .keys table td {
     width: 50px;
+    height: 80px;
     color: #fbfbfb;
     border: 2px solid rgb(25, 92, 69);
     background-color: rgba(90, 104, 142, 0.353);
-    height: 80px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -91,6 +91,7 @@ input[type="text"] {
     background-color: #a442cb;
 }
 
+
 @media (max-width: 600px) {
     .calc {
         font-size: 25px;
@@ -101,13 +102,14 @@ input[type="text"] {
     .calc .keys table td {
         width: 30px;
         height: 60px;
+        font-size: 20px;
     }
 }
 
 @media (max-width: 450px) {
-
     .calc .keys table td {
-        width: 20px;
+        width: 25px;
         height: 30px;
+        font-size: 15px;
     }
 }
